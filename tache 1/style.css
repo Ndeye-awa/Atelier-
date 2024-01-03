@@ -1,13 +1,12 @@
-ul{
+/* ul{
     display: flex;
-    justify-content: space-between;
-    background-color: aquamarine;
+    justify-content: space-around----;
+    background-color: rgb(14, 159, 161);
+} */
 
-}
-
-li{
+/* li{
     list-style-type: none;
-}
+} */
 
 .container{
     display: flex;
@@ -18,7 +17,7 @@ li{
 .card-container{
     border: 1px solid black;
     padding: 40px;
-    background-color: rgb(204, 176, 176);
+    background-color: rgb(14, 159, 161);
 }
 
 h3{
@@ -54,3 +53,26 @@ button{
     height: 40px;
     font-size: 20px;
 }
+
+
+table{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+th{
+    background-color: blue;
+    color: aliceblue;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+caption{
+    caption-side: bottom;
+}
+
